@@ -1,21 +1,23 @@
 # Chargeback Data Analysis
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1IJf399gASRsr9313vLyfXVAS0C_PB07-)
 
-
+**Overview**
 This project analyzes a dataset of ~11,000 credit card transactions to identify patterns associated with fraudulent chargebacks (CBK). By performing Exploratory Data Analysis (EDA) and Feature Engineering, I identified key risk indicators that can be used to prevent financial loss.
 
-The Goal: Reduce chargeback rates by identifying high-risk time windows and suspicious card behavior (velocity).
+The **Goal**: Reduce fraudulent chargeback rates by identifying high-risk time windows and suspicious card behavior (velocity).
 
-🛠️ Key Technologies
+
+🛠️ **Key Technologies**
 Python (Pandas, NumPy)
 
 Data Visualization (Matplotlib, Seaborn)
 
-Jupyter Notebooks
+Google Colab
 
 Statistical Analysis
 
-🔍 Critical Insights
+
+🔍 **Critical Insights**
 1. The "6 AM Spike" (Temporal Risk)
 While transaction volume is lowest in the early morning, the Risk Rate (probability of fraud) peaks at 6:00 AM.
 
@@ -44,16 +46,13 @@ Time-of-Day Authentication: Require Mandatory Two-Factor Authentication (2FA) fo
 
 High-Value Threshold: Implement manual review for all first-time transactions exceeding $180.
 
-📁 Repository Structure
-notebooks/: Contains the full Python analysis and visualization code.
 
-data/: Contains the raw and cleaned versions of the dataset.
 
-visuals/: PNG exports of the key risk charts for quick reference.
+
 
 🚀 How to Run
 Clone this repository.
 
 Install requirements: pip install pandas matplotlib seaborn
 
-Open Fraud_Analysis_Final.ipynb in Jupyter or VS Code.
+Open Fraud_Analysis_Final.ipynb in Jupyter or VS Code or Google Colab.
